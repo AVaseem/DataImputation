@@ -3,9 +3,9 @@
 
 # procedure: 
 # step 1 : Use MICE and KNN to impute the Merged dataset at different levels of missingness. 
-Use file 1- 10,20,30% removed data imputed with KNN. This code first removes 10%, 20%, and 30% of known variables, saves the modified files and then imputes with KNN, with k=5. 
+file 1- 10,20,30% removed data imputed with KNN. This code first removes 10%, 20%, and 30% of known variables, saves the modified files and then imputes with KNN, with k=5. 
 
-use file 2 -10,20,30% removed data imputed with MICE.  This code first removes 10%, 20%, and 30% of known variables, saves the modified files and then imputes with MICE in R studio.
+file 2 -10,20,30% removed data imputed with MICE.  This code first removes 10%, 20%, and 30% of known variables, saves the modified files and then imputes with MICE in R studio.
 
 file 3 - Mean mode imputation(control). This code first removes 10% of known variables, saves the modified file and then imputes with Mean/Mode. It was used as a control 
 
